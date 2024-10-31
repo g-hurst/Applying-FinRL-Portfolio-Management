@@ -26,4 +26,4 @@ to make this library compatible with colab. Thus, runing this code in colab is u
 
 Originally, I was trying to use docker, but then I realized how diffacult it was to setup a 
 docker contatiner inside WSL that had both GPU support in addition to no conflicting dependancies
-with FinRL. Due to diffaculties, a Makefile was created to setup the repository to run. 
+with FinRL. Due to diffaculties, a Makefile was created for setup. 
