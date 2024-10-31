@@ -8,7 +8,7 @@ sudo make setup
 make env-create
 ```
 
-Each command performs the following functions:
+**Command Functions:**
 * `make setup`: This command installs the necicary depenancies. It is basically just a wrapper 
                 the packages that that need to be installed with apt. 
 * `make env-create`: This command creates a python enviroment in the `.env` folder, installs the 
