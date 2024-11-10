@@ -1,4 +1,9 @@
 # Applying-FinRL-Portfolio-Management
+## Overview 
+
+This study investigates the use of Deep Reinforcement Learning (DRL) for dynamic portfolio management in stock trading, aiming to enhance returns while managing risk. Traditional static models often struggle with the rapid, unpredictable changes in financial markets. By modeling portfolio management as a Markov Decision Process (MDP), we designed an environment where a DRL agent can make trading decisions based on asset technical indicators and covariances. Testing on sixteen years of historical data, three out of four DRL models outperformed a buy-and-hold strategy on the Dow Jones Industrial Average Index, with the A2C model achieving the highest cumulative return and Sharpe ratio, despite its simplicity. These results underscore the potential of DRL for adaptive, high-performing trading strategies, highlighting areas for further exploration in model complexity and reward schemes.
+
+The project here was performed for the Purdue University course ECE570: Artificial Intelligence. The experiment, term paper, and code video are all contianed within this repository. 
 
 ## Setup
 
