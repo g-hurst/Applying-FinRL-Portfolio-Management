@@ -29,7 +29,9 @@ env-create:
 	$(PY_ENV) && $(PY) -m pip install --upgrade pip
 	$(PY_ENV) && $(PY) -m pip install -r ./requirements.txt
 	$(PY_ENV) && $(PY) -m pip install git+https://github.com/g-hurst/FinRL.git
+	$(PY_ENV) && $(PY) -m pip install git+https://github.com/stefan-jansen/pyfolio-reloaded.git
 	$(PY_ENV) && $(PY) -m ipykernel install --user --name=$(ENV_PATH)
+
 .phony: nb-start
 nb-start:
 	$(PY_ENV) && jupyter notebook

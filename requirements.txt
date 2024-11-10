@@ -7,4 +7,3 @@ wrds
 swig 
 gym 
 stable-baselines 
-pyfolio
