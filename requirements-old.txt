@@ -1,0 +1,9 @@
+notebook
+pandas
+numpy
+matplotlib
+scikit-learn
+wrds 
+swig 
+gym 
+stable-baselines 
